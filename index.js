@@ -20,17 +20,44 @@
 // bonusPoint = bonusPoint + 45
 // console.log(bonusPoint)
 
+// function increment(){
+//     console.log("The button was clicked")
+// }
+
+// let lap1 = 10
+// let lap2 = 12
+// let lap3 = 9
+
+// function lapTime(){
+//     let totalTime = lap1 + lap2 + lap3
+//     console.log(totalTime)
+// }
+
+// lapTime()
+
+// let lapsCompleted = 0
+
+// function incrementLaps(){
+//     lapsCompleted = lapsCompleted + 1
+// }
+
+// incrementLaps()
+// incrementLaps()
+// incrementLaps()
+
+// console.log(lapsCompleted)
+
+let countEl = document.getElementById("count-el")
+
+console.log(countEl)
+
+let count = 0
+
 function increment(){
-    console.log("The button was clicked")
+    count = count + 1
+    countEl.innerText = count
+    console.log(count)
 }
 
-let lap1 = 10
-let lap2 = 12
-let lap3 = 9
 
-function lapTime(){
-    let totalTime = lap1 + lap2 + lap3
-    console.log(totalTime)
-}
 
-lapTime()
