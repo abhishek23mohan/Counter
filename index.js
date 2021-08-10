@@ -60,4 +60,18 @@ function increment(){
 }
 
 
+function saved(){
+    console.log(count)
+}
 
+// let message = "You have 3 new notifications"
+// let user = "Abhishek"
+// console.log(message + ", " + user)
+
+// let messageToUser = "You have 3 new notifications" + ", " + "Abhishek"
+// console.log(messageToUser)
+
+let name = "Abhishek"
+let greeting = "Hi, my name is "
+let myGreetings = greeting + name
+console.log(myGreetings) 
